@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="icon.png" />
+    <title>Instagram</title>
+    <style>
+      /*section1 start*/
+      section {
+        width: 60%;
+        margin: 0 auto;
+      }
+      section .imgdiv img {
+        width: 465px;
+        height: 665px;
+        border: url("img-6.png");
+        mix-blend-mode: multiply;
+        margin-top: 20px;
+      }
+      section .maindiv {
+        width: 350px;
+        height: 400px;
+        border: 1px solid rgb(219, 219, 219);
+        display: grid;
+        margin-right: 80px;
+        margin-top: -640px;
+        float: right;
+      }
+      section .maindiv .img-1 {
+        width: 220px;
+        height: 70px;
+        margin: auto;
+        margin-top: 35px;
+      }
+      section .maindiv input {
+        width: 258px;
+        height: 36px;
+        margin: auto;
+        margin-top: 5px;
+        background-color: #fafafa;
+        border: 1px solid rgb(219, 219, 219);
+        border-radius: 3px;
+        outline: none;
+        overflow: hidden;
+      }
+      section .maindiv a {
+        color: #fff;
+        background-color: rgb(0, 149, 246);
+        margin: auto;
+        width: 250px;
+        padding: 6px;
+        margin-top: 15px;
+        border-radius: 10px;
+        text-decoration: none;
+        text-align: center;
+        font-size: 20px;
+      }
+      section .maindiv h1 {
+        text-align: center;
+        font-size: 14px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+          Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+          sans-serif;
+        font-weight: 500;
+        color: #385185;
+        margin-top: -5px;
+      }
+      section .maindiv h1 .img-2 {
+        width: 16px;
+        height: 16px;
+      }
+      /*section1 end*/
+      /*section2 & section3  start*/
+      .section2 {
+        width: 349.5px;
+        height: 65px;
+        border: 1px solid rgb(219, 219, 219);
+        margin-right: 381px;
+        margin-top: -225px;
+        float: right;
+      }
+      .section2 h4 {
+        margin-top: 25px;
+        text-align: center;
+        color: #000000;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+          Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+          sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+      }
+      .section2 h4 span {
+        color: #0095f6;
+      }
+      .section3 {
+        float: right;
+        width: 350px;
+        text-align: center;
+        margin-right: 384px;
+        margin-top: -140px;
+      }
+      .section3 .img-div img {
+        width: 135px;
+        height: 40px;
+        margin-top: 15px;
+        border-radius: 6px;
+        margin-right: 5px;
+      }
+      /*section2 & section3  end*/
+      /*footer start*/
+      footer {
+        width: 100%;
+        display: flex;
+      }
+      footer .foot1 {
+        width: 65%;
+        margin: auto;
+        margin-top: -20px;
+      }
+      footer .foot1 a {
+        text-decoration: none;
+        color: #737373;
+        font-size: 12px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+          Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+          sans-serif;
+        padding: 8px;
+      }
+      footer .foot1 a:hover { text-decoration: underline; }
+      .foot2 {
+        margin: auto;
+        margin-top: 20px;
+        width: 30%;
+        color: #737373;
+        font-size: 12px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+          Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+          sans-serif;
+        height: 65px;
+      }
+      .foot2 input {
+        border: transparent;
+        overflow: hidden;
+        outline: none;
+      }
+      /*footer end*/
+    </style>
+  </head>
+  <body>
+    <!--Section1 Start-->
+    <section>
+      <div class="imgdiv">
+        <img src="main-pic.png" alt="" />
+      </div>
+      <div class="maindiv">
+        <img src="logo.png" class="img-1" />
+        <input type="email" placeholder="Phone Number , Username , or Email"required/>
+        <input type="password" placeholder="Password" required />
+        <a href="">Log in</a>
+
+        <h5 style="color: #4c4c4c; text-align: center">
+          _________________<span style="color: #878787"> OR </span> _________________</h5>
+
+          <h1><img src="fb-logo.png" class="img-2" />
+          <span style="color: transparent">...</span>Log In With Facebook</h1><br/>
+        
+        <span style="
+            color: #00376b;
+            text-align: center;
+            font-size: 12px;
+            margin-top: -30px;
+            font-family: -apple-system, BlinkMacSystemFont, sans-serif;">Forgot password ?</span>
+      </div>
+    </section>
+    <!--Section1 end-->
+    <!--Section 2&3 Start-->
+    <div class="section2">
+      <h4>Don't Have a Acoount ? <span>Sign Up</span></h4>
+    </div>
+    <div class="section3">
+      <span>Get the App</span>
+      <div class="img-div">
+        <img src="pic1.png" />
+        <img src="pic2.png" style="width: 110px; border-radius: 1px" />
+      </div>
+    </div>
+    <!--Section 2&3 end-->
+    <!--Footer Start-->
+    <footer>
+      <div class="foot1">
+        <a href="">Meta </a>
+        <a href="">About </a>
+        <a href="">Blog </a>
+        <a href="">Jobs </a>
+        <a href="">Help </a>
+        <a href="">API </a>
+        <a href="">Privacy </a>
+        <a href="">Terms </a>
+        <a href="">Top Acoount </a>
+        <a href="">Locations </a>
+        <a href="">Instagram lite </a>
+        <a href="">Threads </a>
+        <a href="">Contact uploading & Non-users</a>
+        <a href="">Meta Varified</a>
+
+        <div class="foot2">
+          <label for="lang">English</label>
+          <input list="lang" placeholder="▼" style="width: 30px" />
+          <datalist id="lang">
+            <option value="North America"></option>
+            <option value="South America"></option>
+            <option value="Europe"></option>
+            <option value="Africa"></option>
+            <option value="Asia "></option>
+            <option value="South Asia"></option>
+            <option value="Australia"></option>
+            <option value="New Zealand "></option>
+            <option value="Bangladesh 🇧🇩"></option>
+          </datalist>
+          <a href=""> ©️ 2023 Instagram from Meta</a>
+        </div>
+      </div>
+    </footer>
+    <!--Footer end-->
+  </body>
+</html>
